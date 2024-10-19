@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Détails sur le combat MMA entre Francis Ngannou et Renan Ferreira. Regardez le combat en direct ici.">
+    <meta name="keywords" content="MMA, combat, Francis Ngannou, Renan Ferreira, streaming, événement">
+    <meta name="author" content="Votre Nom">
     <title>Description - Événement MMA</title>
     <style>
         body {
@@ -17,6 +20,7 @@
         h1 {
             color: #ff0000;
             margin-top: 50px;
+            font-size: 36px;
         }
 
         p {
@@ -31,26 +35,47 @@
             font-weight: bold;
             margin-top: 30px;
             display: inline-block;
+            transition: color 0.3s ease;
         }
 
         a:hover {
             text-decoration: underline;
+            color: #fff;
         }
 
-        /* Style de l'image */
         img {
             width: 100%;
             max-width: 1200px;
             margin: 20px 0;
-            border: 3px solid #ff0000; /* Bordure rouge autour de l'image */
+            border: 3px solid #ff0000;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Media queries pour améliorer la responsivité */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Détails sur le combat</h1>
     
-    <!-- Ajout de la grande image -->
-    <img src="images2.jpg" alt="Francis Ngannou vs Renan Ferreira">
+    <!-- Ajout de la grande image avec un alt amélioré -->
+    <img src="images2.jpg" alt="Affiche du combat entre Francis Ngannou et Renan Ferreira">
 
     <p>Le combat entre <strong>Francis Ngannou</strong> et <strong>Renan Ferreira</strong> est l'un des événements les plus attendus de l'année.</p>
     <p>Il aura lieu ce samedi 19 octobre 2024 et sera diffusé en direct ici. Ne manque pas ce moment épique !</p>
@@ -61,9 +86,7 @@
     <!-- Lien pour revenir à l'accueil -->
     <p><a href="index.html">Retour à l'accueil</a></p>
 
-    <head> 
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5885231945728133"
-     crossorigin="anonymous"></script>
-    </head>
+    <!-- Script Google AdSense placé dans le body -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5885231945728133" crossorigin="anonymous"></script>
 </body>
 </html>
